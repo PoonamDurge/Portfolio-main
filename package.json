@@ -1,4 +1,5 @@
 {
+  "homepage": "http://PoonamDurge.github.io/Portfolio-main",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,8 @@
     "node": ">=12.x"
   },
   "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lottie-react": "^2.4.0",
     "pdfjs-dist": "^4.3.136",
     "react": "^18.2.0",
