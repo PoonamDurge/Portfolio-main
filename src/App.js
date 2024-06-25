@@ -41,6 +41,7 @@ function App() {
       <MoveToTop/>
 
       <Routes>
+        <Route path="Portfolio-main/" element={<Home/>} />
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>}/>
         <Route path="/Project" element={<Project/>}/>
